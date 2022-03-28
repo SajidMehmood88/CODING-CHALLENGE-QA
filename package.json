@@ -7,9 +7,8 @@
     "test": "./node_modules/cypress/bin/cypress run",
     "headTest": "npm run test --headed",
     "chromeTest": "npm run test --browser chrome",
-    "recordDashBoardTest": "npm run test --reporter mochawesome",
+    "recordDashBoardTest": "npm run test -- --record --key 9267683e-3737-4984-92b4-42bfe73bd3e9 --reporter mochawesome",
     "AppTests": "npm run test -- --spec \"cypress/integration/Test/*\""
-
   },
   "repository": {
     "type": "git",
