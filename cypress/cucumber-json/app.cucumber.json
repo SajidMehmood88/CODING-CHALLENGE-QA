@@ -1,0 +1,163 @@
+[
+  {
+    "description": "    Feature Description",
+    "keyword": "Feature",
+    "name": "End-to-end test",
+    "line": 1,
+    "id": "end-to-end-test",
+    "tags": [],
+    "uri": "app.feature",
+    "elements": [
+      {
+        "id": "end-to-end-test;valid-user-registeration",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Valid user registeration",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User on app page",
+            "result": {
+              "status": "passed",
+              "duration": 1674000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User click on register button",
+            "result": {
+              "status": "passed",
+              "duration": 101000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User fill the username and password fields and click on register button",
+            "result": {
+              "status": "passed",
+              "duration": 678000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User see dashboard and message display Welcome to your reading list",
+            "result": {
+              "status": "passed",
+              "duration": 842000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-test;user-can't-register-with-an-already-existing-username",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "User can't register with an already existing username",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "User on app page",
+            "result": {
+              "status": "passed",
+              "duration": 1627000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "User click on register button",
+            "result": {
+              "status": "passed",
+              "duration": 99000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "User fill the username and password fields and click on register button",
+            "result": {
+              "status": "passed",
+              "duration": 677000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "User see error message",
+            "result": {
+              "status": "passed",
+              "duration": 610000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-test;checks-the-flow-for-adding-a-book-to-the-personal-reading-list-and-verifies-that-it's-working-correctly",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Checks the flow for adding a book to the personal reading list and verifies that it's working correctly",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "User on app page",
+            "result": {
+              "status": "passed",
+              "duration": 1625000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "User click on login button",
+            "result": {
+              "status": "passed",
+              "duration": 96000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "User fill the username and password fields and click on login button",
+            "result": {
+              "status": "passed",
+              "duration": 681000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "User add book and go to reading list",
+            "result": {
+              "status": "passed",
+              "duration": 5135000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

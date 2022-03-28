@@ -1,0 +1,39 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "## The Goal Your task is to write some end-to-end test with Cypress to demonstrate your test automation abilities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/cypress/bin/cypress run",
+    "headTest": "npm run test --headed",
+    "chromeTest": "npm run test -- --browser chrome",
+    "recordDashBoardTest": "npm run test --reporter mochawesome",
+    "AppTests": "npm run test -- --spec \"cypress/integration/Test/*\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Talentspace-EXT/coding-challenge-qa.git"
+  },
+  "author": "Sajid Mehmood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Talentspace-EXT/coding-challenge-qa/issues"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "homepage": "https://github.com/Talentspace-EXT/coding-challenge-qa#readme",
+  "devDependencies": {
+    "cypress": "^9.5.2",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-localstorage-commands": "^1.7.0",
+    "mochawesome": "^7.1.3"
+  }
+}
