@@ -6,7 +6,7 @@
   "scripts": {
     "test": "./node_modules/cypress/bin/cypress run",
     "headTest": "npm run test --headed",
-    "chromeTest": "npm run test -- --browser chrome",
+    "chromeTest": "npm run test --browser chrome",
     "recordDashBoardTest": "npm run test --reporter mochawesome",
     "AppTests": "npm run test -- --spec \"cypress/integration/Test/*\""
 
