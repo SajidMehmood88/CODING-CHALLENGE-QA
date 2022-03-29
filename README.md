@@ -6,7 +6,7 @@ An automation testing framework for some end-to-end test for web application usi
 
 #Getting Started
 ##Prerequisites
-NodeJS
+1. NodeJS
 Installation
 Clone the repo
 git clone https://github.com/wizeline/Cypress-Framework.git
