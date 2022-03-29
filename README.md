@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Talentspace Coding Challenge - QA
 
 ## The Goal
@@ -68,3 +69,6 @@ Prioritised from most important to least important, here are our evaluation crit
 1. **Code Quality**: Is the code that you've written clean, well-structured and easy to understand?
 1. **Documentation**: Did you document how to run your tests well? Is your written communication clear and easy-to-understand?
 1. **The extra mile**: Everything you did on top of the acceptance criteria. See [Bonus Round](#bonus-round-not-required-but-nice-to-have)
+=======
+# CODING-CHALLENGE-QA
+>>>>>>> cc535f13e4021b2c646361b1b422563240e96992
