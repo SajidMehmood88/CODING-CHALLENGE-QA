@@ -4,14 +4,35 @@
 An automation testing framework for some end-to-end test for web application using Cypress
 
 
-# Getting Started
-## Prerequisites
-1. NodeJS
-Installation
-Clone the repo
+## Getting Started
+### Prerequisites
+- NodeJS
+
+### Installation
+1. Clone the repo
+```
 git clone https://github.com/wizeline/Cypress-Framework.git
-Install NPM packages
+```
+2. Install NPM packages
+```
 $ npm install
+```
+### Running the tests
+- Open Cypress:
+```
+$ npm run cy:open
+```
+- Running the tests in headless mode with Chrome
+```
+$ npm run cy:run-chrome
+```
+- Running the tests in headless mode with Firefox
+```
+$ npm run cy:run-firefox
+```
+- Running the tests in headless mode with Electron
+```
+$ npm run cy:run-electron
 
 ## The Process
 1. Clone this GitHub repo - **forking is not possible due to limited rights**
