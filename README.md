@@ -1,11 +1,17 @@
 # Talentspace Coding Challenge - QA
 
 ## The Goal
-Your task is to write some end-to-end test with Cypress to demonstrate your test automation abilities. 
+An automation testing framework for some end-to-end test for web application using Cypress
 
-## What you'll need
-1. The [Cypress Docs](https://docs.cypress.io)
-1. The URL to the app that should be tested: [Personal Library App](https://ts-e2e-challenge.netlify.app/) 
+
+#Getting Started
+##Prerequisites
+NodeJS
+Installation
+Clone the repo
+git clone https://github.com/wizeline/Cypress-Framework.git
+Install NPM packages
+$ npm install
 
 ## The Process
 1. Clone this GitHub repo - **forking is not possible due to limited rights**
