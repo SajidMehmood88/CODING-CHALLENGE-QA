@@ -37,3 +37,8 @@ $ npm run chromeTest
 ```
 $ npm run recordDashBoardTest
 ```
+
+## Built With
+
+* [Cucumber](https://github.com/cucumber) - BDD Testing
+* [Mochawesome](https://www.npmjs.com/package/mochawesome-report-generator) - Report generator
