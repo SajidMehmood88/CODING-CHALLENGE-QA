@@ -1,0 +1,14 @@
+{
+  "chromeWebSecurity": false,
+  "defaultCommandTimeout": 8000,
+  "pageLoadTimeout": 30000,
+  "reporter": "mochawesome",
+  "env": {
+    "url": "https://ts-e2e-challenge.netlify.app/list"
+  },
+  "testFiles": "**/*.feature",
+  "retries": {
+    "runMode": 1
+  },
+  "projectId": "7iub7x"
+}
