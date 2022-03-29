@@ -10,7 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 - NodeJS
 
 ### Installation
-1. Clone the repo
+1. Download or clone the repo into your local machine.
 ```
 git clone https://github.com/SajidMehmood88/CODING-CHALLENGE-QA.git
 ```
