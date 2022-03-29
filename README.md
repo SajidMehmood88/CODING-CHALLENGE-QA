@@ -33,7 +33,7 @@ $ npm run headTest
 ```
 $ npm run chromeTest
 ```
-- Running the with recorded dashboard and mochawesome report
+- Running the tests dashboard feature with Video recording & Screenshots and mochawesome report
 ```
 $ npm run recordDashBoardTest
 ```
