@@ -1,7 +1,7 @@
 # Talentspace Coding Challenge - QA
 
 ## The Goal
-An automation testing framework for some end-to-end test for web application using Cypress
+An automation testing framework for some end-to-end test for web application using Cypress based on page object model.
 
 
 ## Getting Started
