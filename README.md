@@ -11,7 +11,7 @@ An automation testing framework for some end-to-end test for web application usi
 ### Installation
 1. Clone the repo
 ```
-git clone https://github.com/wizeline/Cypress-Framework.git
+git clone https://github.com/SajidMehmood88/CODING-CHALLENGE-QA.git
 ```
 2. Install NPM packages
 ```
