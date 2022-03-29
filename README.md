@@ -4,8 +4,8 @@
 An automation testing framework for some end-to-end test for web application using Cypress
 
 
-#Getting Started
-##Prerequisites
+# Getting Started
+## Prerequisites
 1. NodeJS
 Installation
 Clone the repo
