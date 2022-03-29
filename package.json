@@ -4,6 +4,7 @@
   "description": "## The Goal Your task is to write some end-to-end test with Cypress to demonstrate your test automation abilities.",
   "main": "index.js",
   "scripts": {
+    "cy:open": "./node_modules/cypress/bin/cypress open",
     "test": "./node_modules/cypress/bin/cypress run",
     "headTest": "npm run test --headed",
     "chromeTest": "npm run test --browser chrome",

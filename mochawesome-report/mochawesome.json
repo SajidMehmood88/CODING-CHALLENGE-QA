@@ -1,14 +1,14 @@
 {
   "stats": {
     "suites": 1,
-    "tests": 2,
-    "passes": 2,
+    "tests": 3,
+    "passes": 3,
     "pending": 0,
     "failures": 0,
-    "start": "2022-03-28T11:03:37.592Z",
-    "end": "2022-03-28T11:03:51.252Z",
-    "duration": 13660,
-    "testsRegistered": 2,
+    "start": "2022-03-29T13:27:59.740Z",
+    "end": "2022-03-29T13:28:17.135Z",
+    "duration": 17395,
+    "testsRegistered": 3,
     "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "dc0ed8e7-b203-4edc-8d98-6bb6853e4c64",
+      "uuid": "442989b3-e896-46ed-a654-7890541d4d3e",
       "title": "",
       "fullFile": "cypress/integration/BDD/app.feature",
       "file": "cypress/integration/BDD/app.feature",
@@ -27,8 +27,8 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "9e357732-b9af-4ad2-81f4-9a1bb891bdb3",
-          "title": "End-to-end test which checks the registration flow for a new and valid user (start on initial page of the app and end on Dashboard",
+          "uuid": "851554f6-2964-40e5-b4c6-8451429f6123",
+          "title": "End-to-end test",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
@@ -36,9 +36,9 @@
           "tests": [
             {
               "title": "Valid user registeration",
-              "fullTitle": "End-to-end test which checks the registration flow for a new and valid user (start on initial page of the app and end on Dashboard Valid user registeration",
+              "fullTitle": "End-to-end test Valid user registeration",
               "timedOut": null,
-              "duration": 3603,
+              "duration": 3915,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,16 +47,34 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "718383e7-99b0-47c8-82bd-6058b2a420bd",
-              "parentUUID": "9e357732-b9af-4ad2-81f4-9a1bb891bdb3",
+              "uuid": "9ee56dbd-77c5-4b8b-bcfe-75ccd0811af6",
+              "parentUUID": "851554f6-2964-40e5-b4c6-8451429f6123",
               "isHook": false,
               "skipped": false
             },
             {
-              "title": "Checks the flow for adding a book to the personal reading list",
-              "fullTitle": "End-to-end test which checks the registration flow for a new and valid user (start on initial page of the app and end on Dashboard Checks the flow for adding a book to the personal reading list",
+              "title": "User can't register with an already existing username",
+              "fullTitle": "End-to-end test User can't register with an already existing username",
               "timedOut": null,
-              "duration": 8030,
+              "duration": 3368,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "135b7d60-1f96-435d-aab5-b1be2bac86ca",
+              "parentUUID": "851554f6-2964-40e5-b4c6-8451429f6123",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Checks the flow for adding a book to the personal reading list and verifies that it's working correctly",
+              "fullTitle": "End-to-end test Checks the flow for adding a book to the personal reading list and verifies that it's working correctly",
+              "timedOut": null,
+              "duration": 7275,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -65,21 +83,22 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "95c1cbfe-8897-4aea-8964-b1b72954c2cb",
-              "parentUUID": "9e357732-b9af-4ad2-81f4-9a1bb891bdb3",
+              "uuid": "d06e198c-2efc-4256-8124-04127c6be561",
+              "parentUUID": "851554f6-2964-40e5-b4c6-8451429f6123",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "718383e7-99b0-47c8-82bd-6058b2a420bd",
-            "95c1cbfe-8897-4aea-8964-b1b72954c2cb"
+            "9ee56dbd-77c5-4b8b-bcfe-75ccd0811af6",
+            "135b7d60-1f96-435d-aab5-b1be2bac86ca",
+            "d06e198c-2efc-4256-8124-04127c6be561"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 11633,
+          "duration": 14558,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
