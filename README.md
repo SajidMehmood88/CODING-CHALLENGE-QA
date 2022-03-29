@@ -19,6 +19,8 @@ git clone https://github.com/SajidMehmood88/CODING-CHALLENGE-QA.git
 $ npm install cypress --save-dev
 ```
 ### Running the tests
+Navigate to the folder where your project is located. Run below commands in Terminal.
+
 - Open Cypress:
 ```
 $ npm run cy:open
