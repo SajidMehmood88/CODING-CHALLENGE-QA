@@ -33,7 +33,7 @@ $ npm run cy:run-firefox
 - Running the tests in headless mode with Electron
 ```
 $ npm run cy:run-electron
-
+```
 ## The Process
 1. Clone this GitHub repo - **forking is not possible due to limited rights**
 1. In your cloned repo, set up a new Cypress environment
