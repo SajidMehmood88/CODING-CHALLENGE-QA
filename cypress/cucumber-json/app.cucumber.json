@@ -1,6 +1,5 @@
 [
   {
-    "description": "    Feature Description",
     "keyword": "Feature",
     "name": "End-to-end test",
     "line": 1,
@@ -11,7 +10,7 @@
       {
         "id": "end-to-end-test;valid-user-registeration",
         "keyword": "Scenario",
-        "line": 5,
+        "line": 3,
         "name": "Valid user registeration",
         "tags": [],
         "type": "scenario",
@@ -19,41 +18,41 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 6,
+            "line": 4,
             "name": "User on app page",
             "result": {
               "status": "passed",
-              "duration": 2299000000
+              "duration": 1923000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 7,
+            "line": 5,
             "name": "User click on register button",
             "result": {
               "status": "passed",
-              "duration": 122000000
+              "duration": 128000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 8,
+            "line": 6,
             "name": "User fill the username and password fields and click on register button",
             "result": {
               "status": "passed",
-              "duration": 679000000
+              "duration": 706000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 9,
+            "line": 7,
             "name": "User see dashboard and message display Welcome to your reading list",
             "result": {
               "status": "passed",
-              "duration": 840000000
+              "duration": 839000000
             }
           }
         ]
@@ -61,7 +60,7 @@
       {
         "id": "end-to-end-test;user-can't-register-with-an-already-existing-username",
         "keyword": "Scenario",
-        "line": 11,
+        "line": 9,
         "name": "User can't register with an already existing username",
         "tags": [],
         "type": "scenario",
@@ -69,91 +68,111 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 12,
+            "line": 10,
             "name": "User on app page",
             "result": {
               "status": "passed",
-              "duration": 2244000000
+              "duration": 1638000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 13,
+            "line": 11,
             "name": "User click on register button",
             "result": {
               "status": "passed",
-              "duration": 92000000
+              "duration": 101000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 14,
+            "line": 12,
             "name": "User fill the username and password fields and click on register button",
             "result": {
               "status": "passed",
-              "duration": 640000000
+              "duration": 683000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 15,
+            "line": 13,
             "name": "User see error message",
             "result": {
               "status": "passed",
-              "duration": 408000000
+              "duration": 699000000
             }
           }
         ]
       },
       {
-        "id": "end-to-end-test;checks-the-flow-for-adding-a-book-to-the-personal-reading-list-and-verifies-that-it's-working-correctly",
+        "id": "end-to-end-test;add-a-book-to-the-personal-reading-list-and-verifies-that-it's-working-correctly",
         "keyword": "Scenario",
-        "line": 17,
-        "name": "Checks the flow for adding a book to the personal reading list and verifies that it's working correctly",
+        "line": 15,
+        "name": "Add a book to the personal reading list and verifies that it's working correctly",
         "tags": [],
         "type": "scenario",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 18,
+            "line": 16,
             "name": "User on app page",
             "result": {
               "status": "passed",
-              "duration": 1626000000
+              "duration": 1602000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 19,
+            "line": 17,
             "name": "User click on login button",
             "result": {
               "status": "passed",
-              "duration": 92000000
+              "duration": 102000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "User fill the username and password fields and click on login button",
+            "result": {
+              "status": "passed",
+              "duration": 679000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "User click on discover",
+            "result": {
+              "status": "passed",
+              "duration": 2764000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 20,
-            "name": "User fill the username and password fields and click on login button",
+            "name": "User add book and click on reading list",
             "result": {
               "status": "passed",
-              "duration": 646000000
+              "duration": 290000000
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
+            "keyword": "Then ",
             "line": 21,
-            "name": "User add book and go to reading list",
+            "name": "Added book display in reading list",
             "result": {
               "status": "passed",
-              "duration": 4942000000
+              "duration": 433000000
             }
           }
         ]

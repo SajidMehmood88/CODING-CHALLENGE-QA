@@ -14,6 +14,7 @@ const loginPage = new LoginPage()
 const dashboardPage = new DashboardPage()
 
 let name
+var bookName = null
 Given('User on app page',()=>
 {
     cy.visit(Cypress.env('url'))
@@ -61,11 +62,20 @@ And('User fill the username and password fields and click on login button',funct
     loginPage.getLoginButton().click()
 })
 
-And('User add book and go to reading list',function(){
+And('User click on discover',function(){
     dashboardPage.getDiscover().click()
     cy.wait(2000)
+})
+
+And('User add book and click on reading list',function(){
+    dashboardPage.getBookList().eq(0).invoke('attr', 'aria-label').then( (myValue)=>{
+        bookName = myValue
+    })
     dashboardPage.getBookList().eq(0).find('button[aria-label]').click()
-    cy.wait(2000)
     dashboardPage.getReadingListButton().click()
+})
+
+Then('Added book display in reading list',function(){
+    dashboardPage.getBookList().eq(0).invoke('attr', 'aria-label').should('eq',bookName)
 })
 

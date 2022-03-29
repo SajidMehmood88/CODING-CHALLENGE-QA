@@ -1,7 +1,5 @@
 Feature: End-to-end test
 
-    Feature Description
-
     Scenario: Valid user registeration
     Given User on app page
     When User click on register button
@@ -14,11 +12,13 @@ Feature: End-to-end test
     And User fill the username and password fields and click on register button
     Then User see error message
 
-    Scenario: Checks the flow for adding a book to the personal reading list and verifies that it's working correctly
+    Scenario: Add a book to the personal reading list and verifies that it's working correctly
     Given User on app page
     When User click on login button
     And User fill the username and password fields and click on login button
-    And User add book and go to reading list
+    And User click on discover
+    And User add book and click on reading list
+    Then Added book display in reading list
 
 
 

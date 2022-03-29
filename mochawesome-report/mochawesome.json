@@ -5,9 +5,9 @@
     "passes": 3,
     "pending": 0,
     "failures": 0,
-    "start": "2022-03-29T13:27:59.740Z",
-    "end": "2022-03-29T13:28:17.135Z",
-    "duration": 17395,
+    "start": "2022-03-29T22:12:52.750Z",
+    "end": "2022-03-29T22:13:09.292Z",
+    "duration": 16542,
     "testsRegistered": 3,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "442989b3-e896-46ed-a654-7890541d4d3e",
+      "uuid": "8b2e1738-77cf-48ae-a1c8-62a044c903fe",
       "title": "",
       "fullFile": "cypress/integration/BDD/app.feature",
       "file": "cypress/integration/BDD/app.feature",
@@ -27,8 +27,8 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "851554f6-2964-40e5-b4c6-8451429f6123",
-          "title": "End-to-end test",
+          "uuid": "2e5f858a-af12-4270-9ef4-3b40f85deda6",
+          "title": "Login",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
@@ -36,9 +36,9 @@
           "tests": [
             {
               "title": "Valid user registeration",
-              "fullTitle": "End-to-end test Valid user registeration",
+              "fullTitle": "Login Valid user registeration",
               "timedOut": null,
-              "duration": 3915,
+              "duration": 4329,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,16 +47,16 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "9ee56dbd-77c5-4b8b-bcfe-75ccd0811af6",
-              "parentUUID": "851554f6-2964-40e5-b4c6-8451429f6123",
+              "uuid": "56374f47-0036-4de0-a375-cce545b07895",
+              "parentUUID": "2e5f858a-af12-4270-9ef4-3b40f85deda6",
               "isHook": false,
               "skipped": false
             },
             {
               "title": "User can't register with an already existing username",
-              "fullTitle": "End-to-end test User can't register with an already existing username",
+              "fullTitle": "Login User can't register with an already existing username",
               "timedOut": null,
-              "duration": 3368,
+              "duration": 2988,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -65,16 +65,16 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "135b7d60-1f96-435d-aab5-b1be2bac86ca",
-              "parentUUID": "851554f6-2964-40e5-b4c6-8451429f6123",
+              "uuid": "3bf22ee4-45aa-4883-93cc-eb21ec72c5ff",
+              "parentUUID": "2e5f858a-af12-4270-9ef4-3b40f85deda6",
               "isHook": false,
               "skipped": false
             },
             {
-              "title": "Checks the flow for adding a book to the personal reading list and verifies that it's working correctly",
-              "fullTitle": "End-to-end test Checks the flow for adding a book to the personal reading list and verifies that it's working correctly",
+              "title": "Add a book to the personal reading list and verifies that it's working correctly",
+              "fullTitle": "Login Add a book to the personal reading list and verifies that it's working correctly",
               "timedOut": null,
-              "duration": 7275,
+              "duration": 7045,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -83,22 +83,22 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "d06e198c-2efc-4256-8124-04127c6be561",
-              "parentUUID": "851554f6-2964-40e5-b4c6-8451429f6123",
+              "uuid": "e166515c-dc13-4699-b43d-62691163e0b2",
+              "parentUUID": "2e5f858a-af12-4270-9ef4-3b40f85deda6",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "9ee56dbd-77c5-4b8b-bcfe-75ccd0811af6",
-            "135b7d60-1f96-435d-aab5-b1be2bac86ca",
-            "d06e198c-2efc-4256-8124-04127c6be561"
+            "56374f47-0036-4de0-a375-cce545b07895",
+            "3bf22ee4-45aa-4883-93cc-eb21ec72c5ff",
+            "e166515c-dc13-4699-b43d-62691163e0b2"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 14558,
+          "duration": 14362,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
