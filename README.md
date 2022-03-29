@@ -12,6 +12,10 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installation
 1. Download or clone the repo into your local machine.
 ```
+https://github.com/SajidMehmood88/CODING-CHALLENGE-QA.git
+```
+OR
+```
 git clone https://github.com/SajidMehmood88/CODING-CHALLENGE-QA.git
 ```
 2. Install NPM packages
