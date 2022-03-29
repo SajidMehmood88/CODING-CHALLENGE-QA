@@ -35,19 +35,12 @@ $ npm run chromeTest
 ```
 $ npm run recordDashBoardTest
 ```
-## The Process
-1. Clone this GitHub repo - **forking is not possible due to limited rights**
-1. In your cloned repo, set up a new Cypress environment
-1. Write the end-to-end tests fulfilling the [Acceptance Criteria](#acceptance-criteria) below
-1. Push it to your own repo that you can then share with us - **you have no writing rights on this repo**
-1. In your repo please document how to run the code you've written and how to verify the fulfilment of the acceptance criteria. Feel free to add additional thoughts, e.g. why you implemented a feature in a certain way, what were your learnings etc.
-1. Let us know via Email that you've finished the task so we can schedule the Code Review session with you
-
 
 ## Technical questions
 Please additionally answer the following questions in a markdown file called `Answers to technical questions.md`.
 
 1. How long did you spend on the technical test? What would you add to your solution if you had more time? If you didn't spend much time on the technical test then use this as an opportunity to explain what you would add.
 1. What do you think is the most interesting trend in test automation?
-1. How would you approach adding automated testing to an existing (web) application with no existing E2E tests? Have you ever had to do this?
+Answer: Behaviour Driven Development (BDD) Frameworks- Cucumber, JBehave are some of the popular open source BDD frameworks available. The main reason of using a BDD framework is that it enables a Non-tech users like (BA, Managers etc) to understand what the automation scripts does. Because of the simplicity it offers to the end users, many businesses are moving towards BDD.
+3. How would you approach adding automated testing to an existing (web) application with no existing E2E tests? Have you ever had to do this?
 
